@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow: hidden;
+    background-color: black;
+}
+.container {
+  
+   position: relative;
+    margin: 0;
+    overflow-x: hidden;
+    overflow: hidden;
+    text-align: center;
+
+    
+}
+
+.container {
+  display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center;    /* Vertical alignment */
+    height: 100vh; 
+            flex-direction: row;
+            align-items: center;
+            height: 100%; /* Optional: Adds space between buttons */
+            
+         
+        }
+      .btn {
+       position: absolute;
+      
+        border-radius:0%;
+        width:97%;
+    height:95%;
+    
+    overflow: hidden;
+      
+      mix-blend-mode: exclusion;
+      user-select: none; /* Prevent text selection */
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+      transition: transform 2s, background-color 2s;
+      
+      filter: blur(20px);
+      will-change: filter; /* Hint for performance optimization */
+  
+    }
+    
+#btn1 {
+ 
+  transform-origin: left;
+  
+}
+   #btn2 {
+
+  
+    
+    transform-origin: center;
+   }
+   #btn3{
+    
+    transform-origin: right;
+    
+   }
+  .cont {
+    position: absolute;
+    width:100vw;
+    height:100vh;
+   
+    display: flex;
+    flex-direction: row;
+  } 
+  .blk {
+    background-color: transparent;
+    margin-right: 10px;
+    flex:1;
+    
+    z-index: 999;
+    user-select: none; /* Prevent text selection */
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* IE10+ */
+  }
