@@ -28,7 +28,7 @@ document.onkeydown = function(e) {
     setTimeout(() => {
       btn1.style.backgroundColor = 'transparent';
   
-    }, 900); // 5000 milliseconds = 5 seconds
+    }, 0); // 5000 milliseconds = 5 seconds
   });
 
 
@@ -49,7 +49,7 @@ document.onkeydown = function(e) {
     setTimeout(() => {
       btn3.style.backgroundColor = 'transparent';
    
-    }, 900); 
+    }, 0); 
     });
 
 
@@ -70,6 +70,6 @@ document.onkeydown = function(e) {
     setTimeout(() => {
       btn2.style.backgroundColor = 'transparent';
      
-    }, 900);
+    }, 0);
   });
 
